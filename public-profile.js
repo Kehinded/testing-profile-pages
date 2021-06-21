@@ -28,9 +28,12 @@ class Store {
 
 // set color for the whole site from storage
   document.addEventListener('DOMContentLoaded', function(){
-    const myColor = Store.getColor();
+    let color = Store.getColor();
+    let myColor = String(color);          
     document.documentElement.style.setProperty("--home-primary-color", myColor);
-     
+    const picture = document.querySelector('.public-profile-img');
+    if(myColor === "#D2492F" ){picture.src = "./images/public-profile-img-red.png"}    
+    else{picture.src = "./images/puplic-profile-img.jpg"}  
   })
 
 
