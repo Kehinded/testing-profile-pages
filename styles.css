@@ -241,6 +241,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%; }
+ @media only screen and (max-width: 37.5em) {
+      #before-load-page .img {
+        width: 150%; } }
 
 .container-public {
   display: grid;
