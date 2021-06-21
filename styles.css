@@ -275,7 +275,7 @@ body {
 .section__1 {
   grid-row: 2 / 3;
   grid-column: full-start / full-end;
-  background-image: linear-gradient(to bottom, #3e8a23, #3e8a23), url(/images/section-1-img.jpg);
+  background-image: linear-gradient(to bottom, #3e8a23, #3e8a23), url(./images/section-1-img.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
