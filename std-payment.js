@@ -28,7 +28,8 @@ class Store {
 
 // set color for the whole site from storage
   document.addEventListener('DOMContentLoaded', function(){
-    const myColor = Store.getColor();
+     let color = Store.getColor();
+    let myColor = String(color); 
     document.documentElement.style.setProperty("--home-primary-color", myColor);
      
   })
