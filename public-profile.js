@@ -32,7 +32,7 @@ class Store {
     let myColor = String(color);          
     document.documentElement.style.setProperty("--home-primary-color", myColor);
     const picture = document.querySelector('.public-profile-img');
-    if(myColor == "#D2492F" ){picture.src = "./images/public-profile-img-red.png"}    
+    if(color == "#D2492F" ){picture.src = "./images/public-profile-img-red.png"}    
     else{picture.src = "./images/puplic-profile-img.jpg"}  
   })
 
