@@ -1200,6 +1200,11 @@ body {
             object-fit: cover;
             display: block;
             border-radius: 50%; }
+         @media only screen and (max-width: 44em) {
+            .student-photo-content-box .content-box .avatar-box .choose-box .img-loader {
+              top: 50%;
+              left: 50%;
+              z-index: 30; } }
         @media only screen and (max-width: 44em) {
           .student-photo-content-box .content-box .avatar-box .choose-box {
             grid-row-gap: 2rem;
