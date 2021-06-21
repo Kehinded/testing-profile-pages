@@ -13,7 +13,7 @@ class Store {
 
    return colors;
   }
-       
+          
   // static addColors(color){
   //   const colors = Store.getColor();
   //   colors.push(color);
