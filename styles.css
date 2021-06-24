@@ -1187,28 +1187,28 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr); }
-        .student-photo-content-box .content-box .avatar-box .choose-box .img-loader {
-          position: absolute;
-          top: 42%;
-          left: 56.5%;
-          z-index: 30;
-          transform: translate(-50%, -50%);
-          height: 12rem;
-          width: 12rem;
-          border-radius: 50%;
-          display: none; }
-          .student-photo-content-box .content-box .avatar-box .choose-box .img-loader .img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            display: block;
-            border-radius: 50%; }
-         @media only screen and (max-width: 44em) {
-            .student-photo-content-box .content-box .avatar-box .choose-box .img-loader {
-              top: 50%;
-              left: 50%;
-              z-index: 30; } }
-        @media only screen and (max-width: 44em) {
+         .student-photo-content-box .content-box .avatar-box .choose-box .img-loader {
+            position: absolute;
+            top: 42%;
+            left: 56.5%;
+            z-index: 30;
+            transform: translate(-50%, -50%);
+            height: 15rem;
+            width: 15rem;
+            border-radius: 50%;
+            box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.2), -0.1rem -0.1rem 0.4rem rgba(0, 0, 0, 0.2);
+            display: none; }
+            @media only screen and (max-width: 44em) {
+              .student-photo-content-box .content-box .avatar-box .choose-box .img-loader {
+                top: 50%;
+                left: 50%;
+                border-radius: 50%; } }
+            .student-photo-content-box .content-box .avatar-box .choose-box .img-loader .img {
+              height: 100%;
+              width: 100%;
+              border-radius: 50%;
+              object-fit: cover;
+              display: block; }
           .student-photo-content-box .content-box .avatar-box .choose-box {
             grid-row-gap: 2rem;
             margin-bottom: 2rem; } }
